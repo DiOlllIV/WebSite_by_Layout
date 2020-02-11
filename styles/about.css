@@ -1,13 +1,7 @@
 .about {
+    padding: 46px 15px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     background-color: #F4F5F7;
-    padding: 77px 130px 75px 130px;
-}
-
-.article {
-    width: 555px;
 }
 
 .article__title {
@@ -15,6 +9,24 @@
     font-size: 22px;
     line-height: 32px;
     margin: 0;
+}
+
+.article:last-child {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 400px) {
+    .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 77px 130px 75px 130px;
+    }
+    .article {
+        width: 555px;
+    }
+    .article:last-child {
+        margin-top: 0;
+    }
 }
 
 .article__text {
