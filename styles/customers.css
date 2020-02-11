@@ -26,6 +26,10 @@
     width: 80%;
 }
 
+.apple {
+    width: 50%;
+}
+
 @media screen and (min-width: 400px) {
     .customers {
         width: 1140px;
