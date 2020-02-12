@@ -18,6 +18,12 @@
     flex: 1;
 }
 
+@media screen and(min-width:399) {
+    .logo__description {
+        display: block;
+    }
+}
+
 .customers__item:last-child {
     border-right: none;
 }

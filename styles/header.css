@@ -31,6 +31,10 @@
     display: inline-block;
 }
 
+.logo__description {
+    display: none;
+}
+
 @media screen and (min-width: 400px) {
     .top_section {
         background-color: #F3C6BD;
@@ -65,6 +69,7 @@
         line-height: 25px;
         color: #2B292D;
         opacity: 0.6;
+        display: block;
     }
 }
 
@@ -112,10 +117,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.logo__description {
-    display: none;
 }
 
 .top_section {
