@@ -54,6 +54,9 @@
         }
     }
     &__action-btn {
+        @include for-large-up {
+            width: 160px;
+        }
         @include for-large-down {
             width: 100%;
         }
