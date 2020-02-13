@@ -16,6 +16,8 @@
         display: none;
         @include for-large-up {
             display: block;
+            min-width: 160px;
+            min-height: 48px;
         }
     }
     &__menu-button {
