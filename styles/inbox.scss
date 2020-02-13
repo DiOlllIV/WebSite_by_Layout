@@ -1,13 +1,27 @@
 .inbox {
     @include for-large-up {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     padding: 142px 192px 116px 193px;
     background: #FCF0E366;
+    &__decoration {
+        @include for-large-up {
+            width: 100%;
+            margin-right: 164px;
+            margin-left: 0;
+            margin-bottom: 0;
+        }
+    }
     &__image {
-        min-width: 425px;
-        min-height: 510px;
-        margin-right: 164px;
+        width: 425px;
+    }
+    &__inbox-caption {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: rgba(43, 41, 45, 0.6);
     }
     &__container {
         display: flex;
@@ -44,6 +58,7 @@
         margin-top: 44px;
         margin-left: -30px;
         padding: 30px;
+        border-bottom: 3px solid #3142C6;
         @include for-large-up {
             width: 519px;
             height: 213px;
