@@ -1286,17 +1286,17 @@
     margin-bottom: 110px;
   }
 }
-.hiring:hover:hover {
+.hiring__button:hover {
   cursor: pointer;
   background: #3141C5;
 }
-.hiring:hover:hover .hiring__button-position {
+.hiring__button:hover .hiring__button-position {
   color: #fff;
 }
-.hiring:hover:hover .hiring__button-locate {
+.hiring__button:hover .hiring__button-locate {
   color: #fff;
 }
-.hiring:hover:hover .hiring__button-arrow {
+.hiring__button:hover .hiring__button-arrow {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png");
 }
 
