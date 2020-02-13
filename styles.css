@@ -807,11 +807,21 @@
     min-height: 48px;
   }
 }
+@media screen and (min-width: 1400px) {
+  .communicate__line {
+    margin-top: 87px;
+    background-color: #000;
+    height: 1px;
+    width: 150px;
+  }
+}
 .communicate__decoration {
+  margin-bottom: 27px;
   margin-right: 193px;
 }
 @media screen and (min-width: 1400px) {
   .communicate__image {
+    margin-bottom: 15px;
     min-width: 425px;
     min-height: 426px;
   }
@@ -824,7 +834,7 @@
 }
 .communicate__caption {
   display: flex;
-  margin: 105px 100px 100px 130px;
+  margin: 41px 100px 100px 130px;
 }
 .communicate__caption-description {
   display: flex;

@@ -41,11 +41,21 @@
             min-height: 48px;
         }
     }
+    &__line {
+        @include for-large-up {
+            margin-top: 87px;
+            background-color: #000;
+            height: 1px;
+            width: 150px;
+        }
+    }
     &__decoration {
+        margin-bottom: 27px;
         margin-right: 193px;
     }
     &__image {
         @include for-large-up {
+            margin-bottom: 15px;
             min-width: 425px;
             min-height: 426px;
         }
@@ -58,7 +68,7 @@
     }
     &__caption {
         display: flex;
-        margin: 105px 100px 100px 130px;
+        margin: 41px 100px 100px 130px;
     }
     &__caption-description {
         display: flex;
