@@ -1,0 +1,73 @@
+.engage {
+    padding: 108px;
+    background: #00A1C612;
+    &__desctiption {
+        display: flex;
+        flex-direction: column;
+    }
+    &__title {
+        margin: 0;
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        text-align: center;
+        color: #2B292D;
+    }
+    &__subtitle {
+        margin: 0;
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: -0.5px;
+        color: #2B292D;
+    }
+    &__about {
+        margin: 0;
+        margin-bottom: 34px;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #2B292D
+    }
+    &__action-btn {
+        width: 158px;
+        height: 48px;
+    }
+    &__buttom {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 111px;
+    }
+    &__actions {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    &__engage-caption {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    &__actions-buttom {
+        border-radius: 8px;
+        text-decoration: none;
+        cursor: pointer;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+        background-image: linear-gradient(180deg, white, transparent);
+        color: #2B292D;
+        &:hover {
+            color: #fff;
+            background: #3141C5;
+        }
+    }
+    /*
+    
+    &__decoration {}
+    &__image {}
+     */
+}

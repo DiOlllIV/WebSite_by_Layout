@@ -851,6 +851,80 @@
   font-weight: 700;
 }
 
+.engage {
+  padding: 108px;
+  background: #00A1C612;
+  /*
+
+  &__decoration {}
+  &__image {}
+   */
+}
+.engage__desctiption {
+  display: flex;
+  flex-direction: column;
+}
+.engage__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+  color: #2B292D;
+}
+.engage__subtitle {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #2B292D;
+}
+.engage__about {
+  margin: 0;
+  margin-bottom: 34px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #2B292D;
+}
+.engage__action-btn {
+  width: 158px;
+  height: 48px;
+}
+.engage__buttom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 111px;
+}
+.engage__actions {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.engage__engage-caption {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+}
+.engage__actions-buttom {
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+  background-image: linear-gradient(180deg, white, transparent);
+  color: #2B292D;
+}
+.engage__actions-buttom:hover {
+  color: #fff;
+  background: #3141C5;
+}
+
 .order {
   padding: 50px 15px;
   background-color: #f4f5f7;
