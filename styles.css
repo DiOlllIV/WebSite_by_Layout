@@ -762,6 +762,7 @@
     height: 213px;
     margin-left: -30px;
     margin-bottom: 0;
+    padding: 30px;
   }
 }
 .review__description {
@@ -953,6 +954,8 @@
 @media screen and (min-width: 1400px) {
   .audience__desctiption {
     margin-top: 0;
+    width: 555px;
+    margin: auto;
   }
 }
 .audience__title {
@@ -1038,6 +1041,8 @@
   max-height: 195px;
 }
 .audience-card__audience-card-caption {
+  margin-top: 22px;
+  margin-bottom: 13px;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
@@ -1214,7 +1219,7 @@
 }
 @media screen and (min-width: 1400px) {
   .hiring__title {
-    margin-top: 106px;
+    margin-top: 100px;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
