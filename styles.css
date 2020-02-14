@@ -99,6 +99,7 @@
   border-bottom: 1px solid #E3E3E3;
   border-right: 1px solid #E3E3E3;
   flex: 1;
+  padding: 10px;
 }
 .customers__item:last-child {
   border-right: none;
@@ -691,6 +692,7 @@
   }
 }
 .inbox__image {
+  margin-top: 50px;
   width: 100%;
 }
 @media screen and (min-width: 1400px) {
@@ -713,7 +715,6 @@
 .inbox__container {
   display: flex;
   flex-direction: column;
-  padding: 15px;
 }
 @media screen and (min-width: 1400px) {
   .inbox__container {
@@ -759,7 +760,7 @@
   background: #fff;
   margin-top: 44px;
   margin-bottom: 33px;
-  padding: 30px 0;
+  padding: 30px;
   border-bottom: 3px solid #0185D0;
 }
 @media screen and (min-width: 1400px) {
@@ -768,7 +769,6 @@
     height: 213px;
     margin-left: -30px;
     margin-bottom: 0;
-    padding: 30px;
   }
 }
 .review__description {
