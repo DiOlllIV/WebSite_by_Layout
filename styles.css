@@ -1422,14 +1422,15 @@ html {
 }
 
 .page {
-  width: 100%;
+  width: 420px;
+  margin: auto;
 }
 @media screen and (min-width: 1400px) {
   .page {
     display: flex;
     flex-direction: column;
+    width: 100%;
     max-width: 1400px;
-    margin: auto;
     min-height: 100vh;
   }
 }

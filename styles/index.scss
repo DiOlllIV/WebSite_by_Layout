@@ -25,12 +25,13 @@ html {
 }
 
 .page {
-    width: 100%;
+    width: 420px;
+    margin: auto;
     @include for-large-up {
         display: flex;
         flex-direction: column;
+        width: 100%;
         max-width: 1400px;
-        margin: auto;
         min-height: 100vh;
     }
 }
