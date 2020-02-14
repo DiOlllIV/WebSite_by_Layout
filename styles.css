@@ -1236,7 +1236,8 @@
 }
 .hiring__button {
   display: flex;
-  width: 290px;
+  width: 100%;
+  max-height: 140px;
   margin-top: 20px;
   text-decoration: none;
   box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.07);
@@ -1246,6 +1247,7 @@
 @media screen and (min-width: 1400px) {
   .hiring__button {
     width: 750px;
+    height: 80px;
   }
 }
 .hiring__button__arrow {
@@ -1422,7 +1424,7 @@ html {
 }
 
 .page {
-  width: 420px;
+  width: 320px;
   margin: auto;
 }
 @media screen and (min-width: 1400px) {
