@@ -67,7 +67,7 @@
     }
 }
 
-.user-card {
+.audience-card {
     display: flex;
     flex-direction: column;
     margin-bottom: 35px;
@@ -86,13 +86,13 @@
         max-width: 160px;
         max-height: 195px;
     }
-    &__user-card-caption {
+    &__audience-card-caption {
         text-decoration: none;
         font-weight: bold;
         font-size: 22px;
         line-height: 28px;
     }
-    .user-card-buttom {
+    .audience-card-buttom {
         margin-top: 0;
         margin-bottom: 15px;
         border-radius: 8px;
@@ -111,7 +111,7 @@
             background: #3141C5;
         }
     }
-    .user-card-buttom:last-child {
+    .audience-card-buttom:last-child {
         @include for-large-up {
             margin-right: 0;
         }

@@ -70,7 +70,7 @@
 }
 
 .review {
-    background-image: #fff;
+    background: #fff;
     margin-top: 44px;
     margin-bottom: 33px;
     padding: 30px 0;
@@ -88,7 +88,6 @@
     }
     &__card {
         display: flex;
-        align-items: center;
         margin-top: 26px;
         &__user-image {
             width: 40px;
