@@ -68,7 +68,14 @@
         }
     }
     &__dot {
-        margin: 0 13px;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        background: #2B292D33;
+        margin: 0 7px;
+        &__active {
+            background: #3142C5;
+        }
     }
     &__image {
         margin: auto;
