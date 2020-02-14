@@ -10,12 +10,10 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin: 0;
             @include for-large-up {
                 margin-right: 164px;
             }
-        }
-        &__decoration {
-            margin-top: 0;
         }
         &__image {
             width: 100%;
