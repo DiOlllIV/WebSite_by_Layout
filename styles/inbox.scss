@@ -17,7 +17,6 @@
         }
     }
     &__image {
-        margin-top: 50px;
         width: 100%;
         @include for-large-up {
             width: 425px;
@@ -76,13 +75,14 @@
     background: #fff;
     margin-top: 44px;
     margin-bottom: 33px;
-    padding: 30px;
+    padding: 30px 20px;
     border-bottom: 3px solid #0185D0;
     @include for-large-up {
         width: 519px;
         height: 213px;
         margin-left: -30px;
         margin-bottom: 0;
+        padding: 30px;
     }
     &__description {
         font-size: 20px;
