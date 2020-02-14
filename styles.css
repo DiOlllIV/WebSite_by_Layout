@@ -691,7 +691,7 @@
   margin-top: 0;
 }
 .inbox__image {
-  max-width: 100%;
+  width: 100%;
 }
 @media screen and (min-width: 1400px) {
   .inbox__image {
@@ -796,42 +796,42 @@
   color: #2B292D;
 }
 
-.communicate {
+.communication {
   padding: 15px;
 }
 @media screen and (min-width: 1400px) {
-  .communicate {
+  .communication {
     padding: 0;
   }
 }
 @media screen and (min-width: 1400px) {
-  .communicate__container {
+  .communication__container {
     display: flex;
     align-items: center;
     margin-top: 100px;
   }
 }
-.communicate__description {
+.communication__description {
   margin-top: 35px;
 }
 @media screen and (min-width: 1400px) {
-  .communicate__description {
+  .communication__description {
     margin-right: 193px;
     margin-left: 128px;
   }
 }
-.communicate__subtitle {
+.communication__subtitle {
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
   color: #0189D1;
 }
 @media screen and (min-width: 1400px) {
-  .communicate__subtitle {
+  .communication__subtitle {
     margin-top: 0;
   }
 }
-.communicate__title {
+.communication__title {
   margin-top: 17px;
   margin-bottom: 18px;
   font-weight: 700;
@@ -841,7 +841,7 @@
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .communicate__title {
+  .communication__title {
     margin-top: 24px;
     margin-bottom: 30px;
     font-size: 56px;
@@ -849,89 +849,89 @@
     letter-spacing: -0.5px;
   }
 }
-.communicate__about {
+.communication__about {
   margin-bottom: 39px;
   font-size: 24px;
   line-height: 34px;
   color: #2B292D;
 }
-.communicate__button {
+.communication__button {
   min-width: 160px;
   min-height: 48px;
 }
 @media screen and (min-width: 1400px) {
-  .communicate__line {
+  .communication__line {
     margin-top: 87px;
     background-color: #000;
     height: 1px;
     width: 150px;
   }
 }
-.communicate__decoration {
+.communication__decoration {
   margin: 0;
   align-items: center;
   display: inline-flex;
   flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
-  .communicate__decoration {
+  .communication__decoration {
     margin-bottom: 27px;
     margin-right: 193px;
   }
 }
-.communicate__image {
+.communication__image {
   width: 100%;
   margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
-  .communicate__image {
+  .communication__image {
     margin-bottom: 15px;
     margin-top: 0;
     min-width: 425px;
     min-height: 426px;
   }
 }
-.communicate__communicate-caption {
+.communication__communication-caption {
   font-size: 14px;
   line-height: 22px;
   text-align: center;
   color: rgba(43, 41, 45, 0.6);
 }
-.communicate__caption {
+.communication__caption {
   margin-top: 58px;
   font-size: 18px;
   line-height: 26px;
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .communicate__caption {
+  .communication__caption {
     display: flex;
     margin-top: 0;
     margin: 41px 100px 100px 130px;
   }
 }
-.communicate__caption-description {
+.communication__caption-description {
   display: flex;
   flex-direction: column;
   line-height: 26px;
   padding: 16px;
 }
-.communicate__caption-description__subscription {
+.communication__caption-description__subscription {
   padding: 0;
   font-size: 18px;
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .communicate__caption-description {
+  .communication__caption-description {
     margin-right: 30px;
   }
 }
-.communicate__link__subscription {
+.communication__link__subscription {
   font-size: 18px;
   font-weight: 700;
 }
 
-.engage {
+.audience {
   padding: 15px;
   background: #00A1C612;
   /*
@@ -942,21 +942,21 @@
    */
 }
 @media screen and (min-width: 1400px) {
-  .engage {
+  .audience {
     padding: 108px;
   }
 }
-.engage__desctiption {
+.audience__desctiption {
   margin-top: 35px;
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
-  .engage__desctiption {
+  .audience__desctiption {
     margin-top: 0;
   }
 }
-.engage__title {
+.audience__title {
   margin: 0;
   margin-bottom: 17px;
   font-weight: 700;
@@ -966,11 +966,11 @@
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .engage__title {
+  .audience__title {
     margin-bottom: 24px;
   }
 }
-.engage__subtitle {
+.audience__subtitle {
   margin: 0;
   margin-bottom: 18px;
   font-weight: 700;
@@ -982,14 +982,14 @@
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .engage__subtitle {
+  .audience__subtitle {
     font-size: 56px;
     line-height: 56px;
     margin-bottom: 30px;
     letter-spacing: -0.5px;
   }
 }
-.engage__about {
+.audience__about {
   margin: 0;
   margin-bottom: 34px;
   font-size: 24px;
@@ -998,52 +998,52 @@
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .engage__action-btn {
+  .audience__action-btn {
     width: 158px;
     height: 48px;
   }
 }
-.engage__buttom {
+.audience__buttom {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
   flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
-  .engage__buttom {
+  .audience__buttom {
     flex-direction: row;
     margin-bottom: 111px;
   }
 }
-.engage__actions {
+.audience__actions {
   display: flex;
   flex-direction: column;
   margin-bottom: 35px;
 }
 @media screen and (min-width: 1400px) {
-  .engage__actions {
+  .audience__actions {
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
     margin-bottom: 2px;
   }
 }
-.engage__decoration {
+.audience__decoration {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.engage__image {
+.audience__image {
   max-width: 160px;
   max-height: 195px;
 }
-.engage__engage-caption {
+.audience__audience-caption {
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
   line-height: 28px;
 }
-.engage__actions-buttom {
+.audience__actions-buttom {
   margin-top: 0;
   margin-bottom: 15px;
   border-radius: 8px;
@@ -1054,37 +1054,37 @@
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .engage__actions-buttom {
+  .audience__actions-buttom {
     margin-bottom: 0;
   }
 }
-.engage__actions-buttom:hover {
+.audience__actions-buttom:hover {
   color: #fff;
   background: #3141C5;
 }
 
-.comments {
+.feedback {
   padding: 15px;
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
-  .comments {
+  .feedback {
     position: relative;
     padding: 0;
   }
 }
-.comments__section {
+.feedback__section {
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
-  .comments__section {
+  .feedback__section {
     margin: auto;
     width: 58%;
   }
 }
-.comments__title {
+.feedback__title {
   margin: 0;
   margin-top: 28px;
   margin-bottom: 28px;
@@ -1094,12 +1094,12 @@
   color: #3142C6;
 }
 @media screen and (min-width: 1400px) {
-  .comments__title {
+  .feedback__title {
     margin-top: 0;
     text-align: center;
   }
 }
-.comments__subtitle {
+.feedback__subtitle {
   margin: 0;
   margin-bottom: 34px;
   font-size: 24px;
@@ -1107,11 +1107,11 @@
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .comments__subtitle {
+  .feedback__subtitle {
     text-align: center;
   }
 }
-.comments__author-title {
+.feedback__author-title {
   margin: 0;
   font-weight: 700;
   font-size: 16px;
@@ -1119,11 +1119,11 @@
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .comments__author-title {
+  .feedback__author-title {
     text-align: center;
   }
 }
-.comments__author-subtitle {
+.feedback__author-subtitle {
   margin: 0;
   margin-bottom: 38px;
   font-size: 16px;
@@ -1131,29 +1131,29 @@
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .comments__author-subtitle {
+  .feedback__author-subtitle {
     text-align: center;
   }
 }
-.comments__dots {
+.feedback__dots {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 1400px) {
-  .comments__dots {
+  .feedback__dots {
     margin-bottom: 0;
   }
 }
-.comments__dot {
+.feedback__dot {
   margin: 0 13px;
 }
-.comments__image {
+.feedback__image {
   margin: auto;
   margin-bottom: 50px;
 }
 @media screen and (min-width: 1400px) {
-  .comments__image {
+  .feedback__image {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -1161,7 +1161,7 @@
   }
 }
 @media screen and (min-width: 1400px) {
-  .comments__line {
+  .feedback__line {
     margin-top: 87px;
     background-color: #0000001a;
     height: 1px;
