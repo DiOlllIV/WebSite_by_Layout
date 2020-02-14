@@ -52,9 +52,9 @@
         color: #2B292D
     }
     &__action-btn {
+        height: 48px;
         @include for-large-up {
             width: 158px;
-            height: 48px;
         }
     }
     &__buttom {

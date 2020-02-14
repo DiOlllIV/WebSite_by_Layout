@@ -586,7 +586,7 @@
   background-color: #fff;
   color: #3040C4;
   min-width: 158px;
-  height: 40px;
+  height: 48px;
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
@@ -732,6 +732,7 @@
   line-height: 40px;
   letter-spacing: -0.357143px;
   color: #2B292D;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 1400px) {
   .inbox__title {
@@ -743,10 +744,14 @@
 }
 .inbox__description {
   margin: 0;
-  margin-top: 30px;
   font-size: 24px;
   line-height: 34px;
   color: #2B292D;
+}
+@media screen and (min-width: 1400px) {
+  .inbox__description {
+    margin-top: 30px;
+  }
 }
 
 .review {
@@ -754,7 +759,7 @@
   margin-top: 44px;
   margin-bottom: 33px;
   padding: 30px 0;
-  border-bottom: 3px solid #3142C6;
+  border-bottom: 3px solid #0185D0;
 }
 @media screen and (min-width: 1400px) {
   .review {
@@ -999,10 +1004,12 @@
   text-align: center;
   color: #2B292D;
 }
+.audience__action-btn {
+  height: 48px;
+}
 @media screen and (min-width: 1400px) {
   .audience__action-btn {
     width: 158px;
-    height: 48px;
   }
 }
 .audience__buttom {
@@ -1158,11 +1165,17 @@
   }
 }
 .feedback__dot {
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
   border-radius: 100%;
   background: #2B292D33;
   margin: 0 7px;
+}
+@media screen and (min-width: 1400px) {
+  .feedback__dot {
+    width: 8px;
+    height: 8px;
+  }
 }
 .feedback__dot__active {
   background: #3142C5;
